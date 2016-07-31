@@ -326,3 +326,6 @@ install (FILES
          DESTINATION ${RELATIVE_INSTALL_CMAKE_DIR}
          COMPONENT Development)
 
+add_executable(example1 example/example1.cpp)
+target_link_libraries(example1 nlopt)
+
